@@ -16,7 +16,7 @@ export const CardContainer = ()=> {
     },[])
 
     return (
-        <div>
+        <div className="CardContainer">
             {!loading && info.map(travel => 
                 <TripCard 
                 imgUrl={"https://cdn.viventura.info/img/160x120/" + travel.photos[0].filename} 
