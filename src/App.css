@@ -15,6 +15,18 @@
   border-radius: 10px 10px 0 0 ;
 }
 
+@media (max-width: 1100px) {
+ .CardContainer{
+   flex-direction: column;
+ }
+
+ .Card {
+  width: 80%;
+  margin:10 auto 
+}
+
+}
+
 .CardContainer {
   display:flex;
   margin: 100px auto;
@@ -33,9 +45,9 @@
 }
 
 .name {
-  height: 60px;
+  height: 25%;
 }
 
 .headline {
-  height: 80px;;
+  height: 50%;
 }
